@@ -1,59 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>Inspirational Random Quote Generator</title>
-  <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Chango" rel="stylesheet">
-
-  
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css1'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-
+<html>
   <head>
-  
-</head>
+    <meta charset="utf-8">
+    <title>Random Quote Generator</title>
 
-<body>
-  
-<div class="container">
-  <div class="row">
-      <div class="col-xs-12">
-       <button type="btn btn-default" class="get-quote">New Quote</button>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Random Quote Machine</h1>
+          <h3>WARNING: These qutoes might inspire you</h3>
+          <hr>
+        </div>
       </div>
-  
-      <div class="row element col-xs-12">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Orange_texture.jpg">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="quote-box">
+            <p id="quote"></p>
+            <p id="author"></p>
+          </div>
+          <ul class="list-inline">
+            <li><a href="#" class="btn btn-default btn-lg get-quote"><i class="fa fa-quote-left fa-fw"></i>Get Quote</a></li>
+            <li><a href="#" class="btn btn-default btn-lg share-quote"><i class="fa fa-twitter fa-fw"></i>Share Quote</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
 
-      <div class="row col-xs-12">
-       <p id="quote"></p>
-       <p id="author"></p>
-      </div
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-  </div>
-</div>
-    
-</body>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js5'></script>
-<script src='https://code.jquery.com/jquery-3.2.1.min.js5'></script>
-
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
